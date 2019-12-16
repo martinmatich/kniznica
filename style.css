@@ -1,0 +1,7 @@
+* {box-sizing: border-box}
+table, td {border: 2px black solid; border-collapse: collapse}
+form div {display: none;}
+.odkryt {display: inline-block; position: absolute; z-index: 1;}
+.odkryt div {display: block; padding: 5px; width: 100%; height: calc(1.5em + 0.75rem + 2px); border: 0.5px solid gray; cursor: pointer; box-sizing: border-box; position: relative; top: calc(1.5em + 0.75rem + 2px); background-color: rgb(244, 244, 244)}
+.odkryt div:hover {background-color: rgb(255, 255, 255)}
+.skryt {display: none}
